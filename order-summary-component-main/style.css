@@ -130,13 +130,14 @@ body{
     }
 }
 
-@media (min-width: 592px){
+@media (min-width: 376px) and  (max-width: 500px){
     .container{
-        max-width: 570px;
-        height: 640px;
-        margin-bottom: 50px;
+        max-width: 400px;
+        height: 675px;
     }
 }
+
+
 
 
 
