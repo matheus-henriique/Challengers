@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontPrincipal);
+}
+
+:root{
+    --fontPrincipal: 'Red Hat Display', sans-serif;
+
+    --colorTitulo: hsl(223, 47%, 23%);
+    --colorParagrafo: hsl(224, 23%, 55%);
+    --colorBtn: hsl(245, 75%, 52%); 
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    max-width: 400px;
+    height: 575px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 5px #7280a748;
+}
+
+.imagem img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.conteudo{
+    width: 300px;
+    margin: 20px auto 20px auto;
+    background-color: gba(133, 133, 133, 0.534);
+    color: white;
+}
+
+.conteudo h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-size: 26px;
+}
+
+.conteudo p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plano{
+    display: flex;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: hsla(225, 100%, 97%, 0.637);
+}
+
+.planoPreco{
+    margin-left: 15px;
+    font-weight: bold;
+    color: var(--colorTitulo);
+}
+
+.price{
+    font-size: 15px;
+    color: var(--colorParagrafo);
+}
+
+.btnMudar{
+    font-weight: bold;
+    padding-top: 13px;
+}
+
+.btnMudar:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #3829e0b6;
+}
+
+.pagamento{
+    width: 100%;
+    margin: 25px 0px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    background-color: var(--colorBtn);
+    box-shadow: 0px 4px 10px #7280a7ab;
+}
+.pagamento:hover{
+    background-color: #3829e0b6;
+}
+
+.btnCancelar{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnCancelar:hover{
+    font-weight: bold;
+    color: var(--colorTitulo);
+}
+
+.attribution{ 
+    margin-top: 10px; 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+    font-weight: bold;
+}
+
+@media (max-width: 375px){
+    .container{
+        max-width: 350px;
+        height: 540px;
+    }
+}
