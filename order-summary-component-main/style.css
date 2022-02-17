@@ -132,6 +132,6 @@ body{
 @media (max-width: 720px){
     .container{
         max-width: 720px;
-        height: 940px;
+        height: 1040px;
     }
 }
