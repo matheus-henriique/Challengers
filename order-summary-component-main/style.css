@@ -129,9 +129,9 @@ body{
     }
 }
 
-@media (max-width: 720px){
+@media (max-width: 450px){
     .container{
-        max-width: 720px;
-        height: 1040px;
+        max-width: 400px;
+        height: 840px;
     }
 }
