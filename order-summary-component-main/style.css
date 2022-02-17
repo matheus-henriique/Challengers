@@ -23,13 +23,9 @@ body{
 }
 
 .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     max-width: 400px;
     height: 555px;
-    margin: auto;
+    margin: 20px auto 0px auto;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0px 3px 5px #7280a748;
@@ -115,18 +111,27 @@ body{
 }
 
 .attribution{ 
-    margin-top: 600px; 
+    margin-top: 30px; 
     font-size: 11px; 
     text-align: center; 
 }
 
 .attribution a{ 
-    color: hsl(228, 45%, 44%); 
-    font-weight: bold;
+    color: var(--colorTitulo); 
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.attribution a:hover{ 
+    text-decoration: none;
 }
 
 @media (max-width: 375px){
     .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         max-width: 350px;
         height: 520px;
         margin-bottom: 70px;
@@ -153,45 +158,9 @@ body{
         width: 250px;
         margin-left: 25px;
     }
-}
 
-@media (min-width: 376px) and  (max-width: 500px){
-    .container{
-        max-width: 400px;
-        height: 490px;
-    }
-
-    .conteudo h1{
-        margin-bottom: 10px;
-    }
-
-    .plano{
-        width: 250px;
-        margin-left: 25px;
-        padding: 15px;
-    }
-
-    .planoPreco{
-        margin-left: 10px;
-        font-size: 15px;
-       
-    }
-    
-    .price{
-        font-size: 13px;
-       
-    }
-
-    .btnPagamento{
-        width: 250px;
-        margin-left: 25px;
-    }
-
-    .attribution{ 
-        margin-top: 530px;
-        margin-bottom: 10px; 
-        font-size: 11px; 
-        text-align: center; 
+    .attribution{
+        margin-top: 10px;
     }
 }
 
