@@ -128,3 +128,10 @@ body{
         height: 540px;
     }
 }
+
+@media (max-width: 720px){
+    .container{
+        max-width: 720px;
+        height: 640px;
+    }
+}
