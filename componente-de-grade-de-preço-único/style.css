@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "karla", sans-serif;
+}
+
+.conteiner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 95px;
+    width: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-section,
+.left-section,
+.right-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 18px;
+}
+
+.main-section {
+    padding-left: 15px;
+  }
+
+.titulo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2ab2af;
+    margin-bottom: 20px;
+}
+
+.main-section-paragrafo {
+    font-size: 18;
+    font-weight: 400;
+    color: #C0DF34;
+    margin-bottom: 15px;
+}
+
+.main-section-descricao {
+    font-size: 18px;
+    font-weight: 400;
+    color: #98A6BD;
+    margin-bottom: 15px;
+}
+
+.recursos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  span {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .left-section {
+      background: #2ab2af;
+      color: #ffff;
+      margin: 0px;
+      padding: 30px;
+  }
+
+  .titulo-left-section {
+      font-size: 24px;
+      margin-bottom: 12px;
+  }
+
+  .left-section-descricao {
+      margin-top: 15px;
+  }
+
+  .btn {
+    background: #c0df34;
+    margin-top: 35px;
+    color: #fff;
+    border: none;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .right-section {
+      background: #1dd3d0;
+      color: #fff;
+      margin: 0;
+      padding: 30px;
+  }
+
+  .titulo-right-section {
+      margin-bottom: 12px;
+      font-size: 24px;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+
+ /* Mobile screen */
+@media only screen and (min-width: 320px) and (max-width: 825px) {
+    .conteiner {
+      
+      width: 85%;
+    }
+    .titulo {
+      font-size: 18px;
+    }
+    .main-section-paragrafo,
+    .main-section-descricao {
+      font-size: 14px;
+    }
+    .titulo-left-section,
+    .titulo-right-section {
+      font-size: 18px;
+    }
+    .description-left-section {
+      font-size: 14px;
+    }
+    .btn {
+      width: 85px;
+      height: 55px;
+      font-size: 14px;
+    }
+    .main-section {
+      margin-right: 14px;
+    }
+  }
