@@ -125,8 +125,18 @@ body{
 @media (max-width: 375px){
     .container{
         max-width: 350px;
-        height: 580px;
+        height: 540px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: 592px){
+    .container{
+        max-width: 570px;
+        height: 640px;
         margin-bottom: 50px;
     }
 }
+
+
 
